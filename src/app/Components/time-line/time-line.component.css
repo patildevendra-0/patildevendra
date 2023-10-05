@@ -84,5 +84,10 @@
 .card h5,
 .card p ,
 .card ul{
-    color: #fff; /* White text color */
+    color: #ffffffcb; /* White text color */
+}
+
+.card strong
+{
+    color: #00BFFF;
 }
