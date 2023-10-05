@@ -1,0 +1,101 @@
+
+<div class="bg">
+    <!-- col-12 d-none d-md-block -->
+        <div class="container-fluid" id="main_conatiner"  *ngIf="showLoader">
+            <div class="animation-container">
+                <div class="lightning-container">
+                    <div class="lightning white"></div>
+                    <div class="lightning red"></div>
+                </div>
+                <div class="boom-container">
+                    <div class="shape circle big white"></div>
+                    <div class="shape circle white"></div>
+                    <div class="shape triangle big yellow"></div>
+                    <div class="shape disc white"></div>
+                    <div class="shape triangle blue"></div>
+                </div>
+                <div class="row justify-content-center" *ngIf="!showContent && isLoadingComplete">
+                    <button class="btn btn-primary align-item-center Button" (click)="onButtonClick()"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> Explore me</button>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="welcome-card">
+                                <h1>"I'm Devendra, your guide to my digital realm! 🌟"</h1>
+                                <p>Thanks for choosing to explore my universe of code and creativity. 🌌</p>
+                                <p>Ready to dive in? Click above button to see my portfolio and embark on this digital adventure! 🚀💼</p>
+                                <!-- <button class="welcome-button" onclick="location.href='#portfolio'">Explore My Portfolio</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="boom-container second">
+                    <div class="shape circle big white"></div>
+                    <div class="shape circle white"></div>
+                    <div class="shape disc white"></div>
+                    <div class="shape triangle blue"></div>
+                    <div class="shape triangle big yellow"></div>
+                </div>
+            </div>
+        
+            <div class="animation-container">
+                <div class="lightning-container">
+                    <div class="lightning white"></div>
+                    <div class="lightning red"></div>
+                </div>
+                <div class="boom-container">
+                    <div class="shape circle big white"></div>
+                    <div class="shape circle white"></div>
+                    <div class="shape triangle big yellow"></div>
+                    <div class="shape disc white"></div>
+                    <div class="shape triangle blue"></div>
+        
+                </div>
+                <div class="boom-container second">
+                    <div class="shape circle big white"></div>
+                    <div class="shape circle white"></div>
+                    <div class="shape disc white"></div>
+                    <div class="shape triangle blue"></div>
+                    <div class="shape triangle big yellow"></div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- <app-loader *ngIf="showLoader"></app-loader>
+        <div *ngIf="!showContent && isLoadingComplete">
+            <button class="btn btn-primary" (click)="onButtonClick()">Show Content</button>
+        </div> -->
+        <div *ngIf="showContent">
+    
+            <app-navbar></app-navbar>
+    
+            <div id="home" class="content">
+                <app-welcome-page></app-welcome-page>
+            </div>
+        
+            <div id="about" class="content">
+                <app-about-me></app-about-me>
+                <app-progress-bar></app-progress-bar>
+            </div>
+        
+            <div id="portfolio" class="content">
+                <app-projects></app-projects>
+            </div>
+            <div id="contact" class="content">
+                <app-time-line></app-time-line>
+            </div>
+            <div>
+                <app-footer></app-footer>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<app-demo></app-demo>

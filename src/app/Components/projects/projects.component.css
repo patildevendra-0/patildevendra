@@ -1,0 +1,47 @@
+.card {
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgba(242, 238, 238, 0.758);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(241, 235, 235, 0.068);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(243, 238, 238, 0.468);
+}
+.card-title
+{
+    color:rgb(169, 183, 199);
+}
+
+.card-text
+{
+    color:aqua;
+}
+
+
+.nav-tabs .nav-link.active {
+    background-color: transparent; /* Set the background color to transparent */
+    border: none; /* Remove the border */
+    box-shadow: 0 0 5px 1px #9bec6b60; /* Add a white shadow when selected */
+    color: #000; /* Set the text color to black */
+    color: aqua;
+}
+
+.nav-tabs .nav-link {
+    background-color: transparent; /* Set the background color to transparent */
+    border: none; /* Remove the border */
+    color: #f5e9e9; /* Set the text color to black */
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: transparent; /* Set the background color to transparent on hover */
+}
+
+
+#main_card_project {
+    background-image: url(../../../assets/C++hud.jpg);
+    background-color: rgba(12, 12, 12, 0.706); /* Adjust the alpha value (0.5 for 50% opacity) */
+    background-blend-mode: overlay; /* Blend the background image with the background color */
+    /* Other styles for your #main_card element */
+}

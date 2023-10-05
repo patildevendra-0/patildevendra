@@ -1,0 +1,85 @@
+
+  footer {
+    background: linear-gradient(to right, #00308F, #002244);
+    color: #fff;
+    padding: 40px 0;
+  }
+  #footer {
+    background-image: url(../../../assets/ffff.jpg);
+    background-color: #0d0d0e8d;
+    background-blend-mode: overlay; /* Blend the background image with the background color */
+    /* Other styles for your #main_card element */
+    background-size: cover; /* Cover the entire #footer */
+    border-radius: 10px;
+}
+
+  .footer-info h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .footer-info p {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+
+  .footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .footer-links a:hover {
+    color: #fff;
+  }
+
+  .footer-contact p {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* Add styles for the social media icons */
+  .footer-social-media h4 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+
+.social-links a {
+  font-size: 24px; /* Adjust the size as needed */
+  color: #f5ecec; /* Default icon color */
+  margin-right: 10px; /* Adjust spacing between icons */
+  text-decoration: none; /* Remove underline */
+  transition: transform 0.2s, color 0.2s; /* Add smooth transitions for transform and color */
+}
+
+.social-links a:hover {
+  transform: scale(1.4); /* Scale up the icon on hover */
+  color: #007bff; /* Change the icon color on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+
+
+
+.card-text {
+  font-size: 16px;
+  color: #40b78d;
+}
+
+.card-text.fst-italic {
+  font-style: italic;
+} 
