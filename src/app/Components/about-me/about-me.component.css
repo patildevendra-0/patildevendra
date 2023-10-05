@@ -40,12 +40,12 @@ li {
 
 strong {
     font-weight: bold;
-    color: #cfb0b0;
+    color: #cfb0b0e0;
 }
 
 /* Style the spans inside list items */
 ul li span {
-    color: #777;
+    color: #c4a8a8d4;
 }
 
 .section-title h2 {
