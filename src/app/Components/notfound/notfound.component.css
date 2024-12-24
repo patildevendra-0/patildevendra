@@ -1,0 +1,27 @@
+.bg-notfound {
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white for contrast */
+    position: relative; /* Allow positioning the text and image */
+    width: 100%; /* Full width */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .card-img {
+    max-width: 100%; /* Ensure image doesn't overflow */
+    max-height: 80%; /* Limit the image height */
+    object-fit: contain; /* Ensure the image maintains its aspect ratio */
+    position: absolute; /* Allow image positioning */
+    top: 50%; /* Center the image vertically */
+    left: 50%; /* Center the image horizontally */
+    transform: translate(-50%, -50%); /* Perfectly center the image */
+  }
+  
+  p {
+    position: absolute; /* Position the text over the image */
+    top: 80%; /* Adjust text position relative to the image */
+    left: 50%;
+    transform: translateX(-50%); /* Center text horizontally */
+    font-size: 1.75rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better visibility */
+  }
+  
